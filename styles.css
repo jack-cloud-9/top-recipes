@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    color: darkblue;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: large;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* nav {
+    margin: 20px 0;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background: #555;
+} */
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    display: block;
+    justify-content: space-between; /* Adjust spacing between blocks */
+    align-items: center; /* Align items vertically */
+  }
+
+.inline-block {
+    display: inline-block;
+    width: 30%; /* Adjust block width */
+    height: 300px; /* Adjust block height */
+    background-color: lightblue;
+    text-align: center;
+    /* line-height: 100px; Vertically center text */
+    border: 1px solid #000;
+}
+
+.inline-block a {
+    display: block;
+    height: 10%;
+    padding: 1px 0;
+    text-align: center; /* Use a valid value for text-align */
+    size: 1em;
+}
+
+.inline-block img {
+    display: block;
+    width: auto;
+    height: 89%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1px;
+}
